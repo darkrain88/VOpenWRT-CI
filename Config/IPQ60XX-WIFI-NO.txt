@@ -4,10 +4,11 @@ CONFIG_TARGET_qualcommax_ipq60xx=y
 #设备列表
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-07=y
-CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-07="luci-app-nikki luci-app-dockerman luci-i18n-dockerman-zh-cn luci-i18n-nikki-zh-cn luci-app-syncthing luci-i18n-syncthing-zh-cn luci-app-samba4 luci-i18n-samba4-zh-cn luci-app-filebrowser-go luci-i18n-filebrowser-go-zh-cn"
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-07="luci-app-nikki luci-app-dockerman luci-i18n-dockerman-zh-cn luci-i18n-nikki-zh-cn luci-app-syncthing luci-i18n-syncthing-zh-cn luci-app-samba4 luci-i18n-samba4-zh-cn luci-app-filebrowser-go luci-i18n-filebrowser-go-zh-cn luci-app-passwall=y"
 
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_zn_m2="luci-app-nikki"
 #WIFI驱动
 CONFIG_PACKAGE_kmod-ath11k=n
 CONFIG_PACKAGE_kmod-ath11k-ahb=n
