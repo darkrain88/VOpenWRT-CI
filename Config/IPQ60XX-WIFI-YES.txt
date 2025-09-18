@@ -5,5 +5,5 @@ CONFIG_TARGET_qualcommax_ipq60xx=y
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y
-CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01="luci-app-nikki luci-app-gecoosac luci-app-dockerman luci-i18n-dockerman-zh-cn luci-i18n-nikki-zh-cn  luci-app-filebrowser-go luci-i18n-filebrowser-go-zh-cn"
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01="luci-app-nikki luci-app-gecoosac luci-app-dockerman luci-i18n-dockerman-zh-cn luci-i18n-nikki-zh-cn  luci-app-filebrowser-go luci-i18n-filebrowser-go-zh-cn luci-app-passwall=y"
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-02=y
