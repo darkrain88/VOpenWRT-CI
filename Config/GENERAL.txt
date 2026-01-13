@@ -25,7 +25,7 @@ CONFIG_PACKAGE_luci-app-cpufreq=y
 CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-app-arpbind=y
 CONFIG_PACKAGE_luci-app-cpufreq=y
-CONFIG_PACKAGE_luci-app-ddns-go=y
+CONFIG_PACKAGE_luci-app-ddns-go=m
 
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
