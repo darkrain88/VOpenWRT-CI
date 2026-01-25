@@ -6,7 +6,7 @@ CONFIG_TARGET_qualcommax_ipq60xx=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-02=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-07=y
-CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-07=" luci-app-passwall luci-i18n-passwall-zh-cn luci-app-openclash luci-app-banip luci-i18n-banip-zh-cn"
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-07="luci-app-nikki luci-app-passwall luci-i18n-passwall-zh-cn luci-app-openclash luci-app-banip luci-i18n-banip-zh-cn"
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
 CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_zn_m2=" luci-app-passwall luci-i18n-passwall-zh-cn luci-app-openclash luci-app-banip luci-i18n-banip-zh-cn"
