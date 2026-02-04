@@ -9,3 +9,4 @@ CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y
 CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01="luci-app-nikki luci-app-passwall luci-i18n-passwall-zh-cn luci-app-ddns-go luci-app-openclash luci-app-gecoosac"
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_zn_m2=" luci-app-passwall luci-i18n-passwall-zh-cn luci-app-nikki"
