@@ -4,9 +4,9 @@ CONFIG_TARGET_qualcommax_ipq60xx=y
 #设备列表
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-02=y
-CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-02="luci-app-nikki luci-app-openclash luci-app-athena-led luci-i18n-athena-led-zh-cn luci-app-ddns-go"
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-02="luci-app-nikki luci-i18n-nikki-zh-cn luci-app-openclash luci-app-athena-led luci-i18n-athena-led-zh-cn luci-app-ddns-go"
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y
-CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01="luci-app-nikki luci-app-ddns-go luci-app-openclash luci-app-gecoosac"
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01="luci-app-nikki luci-i18n-nikki-zh-cn luci-app-ddns-go luci-app-openclash luci-app-gecoosac"
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
-CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_zn_m2=" luci-app-nikki"
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_zn_m2=" luci-app-nikki luci-i18n-nikki-zh-cn"
