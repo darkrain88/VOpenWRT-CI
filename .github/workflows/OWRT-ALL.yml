@@ -35,11 +35,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-<<<<<<< HEAD
-        CONFIG: [MEDIATEK]
-=======
-        CONFIG: [MEDIATEK-WIFI-YES, MEDIATEK-WIFI-NO, ROCKCHIP, X86]
->>>>>>> a77dce51e2fa063db6bda64b727745aa19ac3c50
+        CONFIG: [MEDIATEK-WIFI-YES]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [owrt]
 
