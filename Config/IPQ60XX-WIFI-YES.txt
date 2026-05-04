@@ -10,3 +10,6 @@ CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01="luci-a
 
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
 CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq60xx_DEVICE_zn_m2=" luci-app-nikki luci-i18n-nikki-zh-cn"
+
+
+CONFIG_PACKAGE_luci-app-cpufreq=y
