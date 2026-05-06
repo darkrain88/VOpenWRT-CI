@@ -5,4 +5,4 @@ CONFIG_TARGET_mediatek_filogic=y
 
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cudy_tr3000-v1=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cudy_tr3000-v1-ubootmod=y
-
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_supergateway_s20p=y
