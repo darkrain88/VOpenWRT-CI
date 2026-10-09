@@ -84,7 +84,7 @@ UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-
 UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
 # UPDATE_PACKAGE "luci-app-lucky" "sirpdboy/luci-app-lucky" "main"
 UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main"
-UPDATE_PACKAGE "small" "kenzok8/small" "master" "" "dae daed luci-app-daede"
+UPDATE_PACKAGE "small" "kenzok8/small" "master" "" " daed luci-app-daede"
 
 
 
