@@ -43,7 +43,7 @@ UPDATE_PACKAGE() {
 
 # 调用示例
 # UPDATE_PACKAGE "OpenAppFilter" "destan19/OpenAppFilter" "master" "" "custom_name1 custom_name2"
-# UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf" 这样会把原有的open-app-filter，luci-app-appfilter，oaf相关组件删除，不会出现coremark错误。
+# UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf" 这样会把原有的open-app-filter，luci-app-appfilter，oaf相关组件删除，不会出现cor[...] 
 
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg，可选，从大杂烩中单独提取包名插件"
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12"
@@ -136,6 +136,14 @@ UPDATE_VERSION() {
 #UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
 #UPDATE_VERSION "sing-box"
 UPDATE_VERSION  "softethervpn5"
+
+# 5.2.x 新源码已原生提供 OQS_ENABLE 和 -DOQS_ENABLE=OFF。
+# OpenWrt 旧版 001 补丁已针对 5.02.5186 的旧 CMakeLayout，升级后会失效。
+SOFTETHERVPN5_PATCH="./feeds/packages/net/softethervpn5/patches/001-Mayaqua-build-allow-disabling-OQS.patch"
+if [ -f "$SOFTETHERVPN5_PATCH" ]; then
+	rm -f "$SOFTETHERVPN5_PATCH"
+	echo "Removed obsolete softethervpn5 OQS patch: $SOFTETHERVPN5_PATCH"
+fi
 
 #引入私有扩展脚本
 if [ -f "$GITHUB_WORKSPACE/Scripts/PRIVATE.sh" ]; then
