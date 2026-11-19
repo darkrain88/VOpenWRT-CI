@@ -137,6 +137,14 @@ UPDATE_VERSION() {
 #UPDATE_VERSION "sing-box"
 UPDATE_VERSION  "softethervpn5"
 
+# 5.2.x 新源码已原生提供 OQS_ENABLE 和 -DOQS_ENABLE=OFF。
+# OpenWrt 旧版 001 补丁已针对 5.02.5186 的旧 CMakeLayout，升级后会失效。
+SOFTETHERVPN5_PATCH="./feeds/packages/net/softethervpn5/patches/001-Mayaqua-build-allow-disabling-OQS.patch"
+if [ -f "$SOFTETHERVPN5_PATCH" ]; then
+	rm -f "$SOFTETHERVPN5_PATCH"
+	echo "Removed obsolete softethervpn5 OQS patch: $SOFTETHERVPN5_PATCH"
+fi
+
 #引入私有扩展脚本
 if [ -f "$GITHUB_WORKSPACE/Scripts/PRIVATE.sh" ]; then
 	source "$GITHUB_WORKSPACE/Scripts/PRIVATE.sh"
