@@ -27,7 +27,7 @@ CONFIG_PACKAGE_luci-app-banip=y
 
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
-
+CONFIG_PACKAGE_luci-app-ttyd=y
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
